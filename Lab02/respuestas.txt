@@ -1,0 +1,11 @@
+2.3=El error es que no mandamos ningun parametro para que lea 
+       La solucion seria declarar 'arreglos_parametros'
+2.5=parametros=nombre
+       arrego_parametros=nombre =batman
+       valores=batman
+
+
+
+
+
+
