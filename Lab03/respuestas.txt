@@ -1,0 +1,3 @@
+4,7: creamos unavariable lista con un array de 1 al 6 ,
+      each ejecuta item ,y tambien lista 
+4.12:Estamos creando un filtro de los empleados que tenga designation SSE solo se pedira que imprima su id y su nombre
