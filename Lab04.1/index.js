@@ -1,9 +1,7 @@
 var express = require('express')
 var app = express()
 app.use('/static',express.static('public'))
-app.use(function(res,req,next){
-	res.status(404).send("Esto no existe")
-})
+
 
 app.use(function(err,res,req,next){
 	console.error(err.stack)
@@ -26,6 +24,9 @@ app.put('/user',function (req,res){
 
 app.delete('/User',function (req,res){
 	res.send('Recibimos un DELETE en /user')
+})
+app.use(function(res, req, next){
+	res.status(404).send("Esto no existe!")
 })
 
 app.listen(3000,function(){
