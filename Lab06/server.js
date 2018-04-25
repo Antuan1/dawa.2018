@@ -12,6 +12,8 @@ app.get('/', function (req,res){
 	res.render('main');
 });
 
+
+
 io.on('connection', function(socket){
 	console.log('Usuario conectado');
 	socket.on('disconnect', function(){
