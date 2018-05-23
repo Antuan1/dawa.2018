@@ -9,7 +9,7 @@ import NewPost from './components/NewPost/NewPost.css';
 class App extends Component {
   render() {
     return (<BrowserRouter>
-    	<div className={Classes.App}>
+    	<div className={classes.App}>
     	<header>
     		<nav>
     			<ul>
@@ -28,7 +28,7 @@ class App extends Component {
     						textDecoration: 'underline'
     					}}>Posts</NavLink></li>
     				<li><NavLink to={{
-    					pathname='/new-post',
+    					pathname: '/new-post',
     					hash: '#submit',
     					search: '?quick-submit=true'
     					}}>New Post</NavLink></li>
@@ -38,13 +38,13 @@ class App extends Component {
     <h1>Blog de ejemplo</h1>
     <Switch>
     	<Route path="/new-post" component={NewPost} />
-    	<Route path="/posts" component={Post} />
+    	<Route path="/posts" component={Posts} />
     	<Route path="" exact render={() => <h1>Pagina de inicio</h1>} />
-    	<Route render={() => <h1>Noy found</h1>}>
+    	<Route render={() => <h1> Not found </h1>}/>
 
     </Switch>
    </div>
-  </BrowserRouter>
+  </BrowserRouter>);
 
         
   }
