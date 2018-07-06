@@ -1,0 +1,16 @@
+*****************************************************************************
+Concluciones
+
+-Vimos como crear una aplicacione en react
+-El sentido principal de usar react es la creacion de componentes de front-end
+-Los beneficios de trabajar con reat es que los componentes pueden ser
+ reutilizables en distintas interfaces de usuarios 
+-Cuando visualizamos datos ,la subdivision de estos componentes permite hacer
+ pruebas y depuraciones con cada una de ellas
+-Una ves que hemos hecho las pruebas y depuraciones los componentes se pueden 
+mover sin riesgo que estos puedan fallar 
+-Un punto a resaltar es que react es que se usa el jsx, esta es una extension 
+se la sintaxis de javascript la cual fue creada por facebook ,lo que lo hace 
+similar a xml y html
+
+*****************************************************************************

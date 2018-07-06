@@ -1,0 +1,16 @@
+==============================================================
+Resultado Final:
+
+-Resultado, V2, V3 y V4.
+==============================================================
+Conclusiones:
+•	Observamos el tema de llamadas asíncronas, para React y cómo implementarlas mediante el laboratorio desarrollado por el profesor.
+•	El profesor nos explicó algunas dudas que tuvimos con respecto al laboratorio, dado que este no lo hicimos en clases, lo reemplazamos con el de Electron, pero por eso misma razón le preguntamos al profesor sobre algunos puntos.
+•	Este laboratorio fue desarrollado por el profesor, implementando el laboratorio anterior que hicimos sobre Post, el profesor le agrego estilos y lo modifico un poco, para que nosotros usáramos dicha modificación para este laboratorio e implementáramos algunas cosas.
+•	Continuamos sin poder observar nuestros Post en la pestaña de Post, dado que seguimos llamando los datos de la página web que nos fue brindada con datos JSON.
+•	Agregamos una imagen, y observamos cómo es cargar entre las paginas como si fuera Ajax gracias a eso evitamos tiempos largos de carga para ciertas conexiones red.
+•	Aprendimos sobre las carpetas que van en React que eran HOC y la de ASSETS.
+•	Se aprendió sobre axios el cual sirve para obtener un conjunto de posts y podamos acceder a al resto de archivos.
+•	Logramos usar CSS para tipos de carga.
+
+==============================================================
